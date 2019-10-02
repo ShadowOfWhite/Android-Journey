@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UI</string>
+
+    <!--跑马灯相关-->
+    <string name="long_text">梦里不知身是客，一晌贪欢。</string>
+    <string name="marquee_hint">省略号在开头、省略号在中间、省略号在末尾、跑马灯。
+        跑马灯效果必须同时满足focusable和focusableInTouchMode。
+        代码设置：跑马灯点击暂停，再点击恢复。</string>
+
+</resources>
