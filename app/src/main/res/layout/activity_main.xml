@@ -3,25 +3,45 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btn_marquee"
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
-        android:layout_height="@dimen/abc_action_button_min_height_material"
-        android:text="@string/text_marquee" />
+        android:layout_height="wrap_content">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
-        android:layout_height="@dimen/abc_action_button_min_height_material"
-        android:background="@drawable/ui_button_selector"
-        android:text="@string/selector" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_marquee"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/abc_action_button_min_height_material"
+            android:text="@string/text_marquee" />
 
-    <TextView
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/abc_action_button_min_height_material"
+            android:background="@drawable/ui_button_selector"
+            android:text="@string/selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/left_chat_background"
+            android:text="@string/explain_dot9"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/left_chat_background"
-        android:text="@string/explain_dot9"/>
+        android:layout_height="wrap_content">
+
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:button="@drawable/ui_checkbox_selector"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>
