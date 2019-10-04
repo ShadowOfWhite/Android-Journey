@@ -2,4 +2,5 @@
     <string name="app_name">AndroidJourney</string>
     <string name="text_marquee">跑马灯效果</string>
     <string name="selector">选择器</string>
+    <string name="explain_dot9">背景是.9图，设置四条横线，左和上代表缩放区域，右和下代表文字显示区域</string>
 </resources>
