@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AndroidJourney</string>
     <string name="text_marquee">跑马灯效果</string>
+    <string name="selector">选择器</string>
 </resources>

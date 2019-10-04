@@ -9,8 +9,13 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_marquee"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/text_marquee"
-        />
+        android:layout_height="@dimen/abc_action_button_min_height_material"
+        android:text="@string/text_marquee" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/abc_action_button_min_height_material"
+        android:background="@drawable/ui_button_selector"
+        android:text="@string/selector" />
 
 </androidx.appcompat.widget.LinearLayoutCompat>
