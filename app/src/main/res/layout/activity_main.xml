@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <androidx.appcompat.widget.LinearLayoutCompat
@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/left_chat_background"
-            android:text="@string/explain_dot9"/>
+            android:text="@string/explain_dot9" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -38,10 +38,26 @@
         <CheckBox
 
             android:layout_width="wrap_content"
-            android:button="@drawable/ui_checkbox_selector"
-            android:layout_height="wrap_content"/>
-    </androidx.appcompat.widget.LinearLayoutCompat>
+            android:layout_height="wrap_content"
+            android:button="@drawable/ui_checkbox_selector" />
 
+        <androidx.appcompat.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textOff="@string/left"
+            android:textOn="@string/right"
+            android:thumb="@drawable/switch_thumb"
+            app:showText="true"
+            app:track="@drawable/shape_switch_track" />
+
+        <CheckBox
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/switch_selector"
+            android:button="@null" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
