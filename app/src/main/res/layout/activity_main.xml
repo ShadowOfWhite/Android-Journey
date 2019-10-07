@@ -32,7 +32,7 @@
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <CheckBox
@@ -59,7 +59,7 @@
 
         <me.zhaoming.ui.widget.MultiLineRadioGroup
             android:id="@+id/indoor_floor_choice"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
@@ -109,11 +109,6 @@
 
             </LinearLayout>
         </me.zhaoming.ui.widget.MultiLineRadioGroup>
-    </androidx.appcompat.widget.LinearLayoutCompat>
-
-    <androidx.appcompat.widget.LinearLayoutCompat
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
 
 
         <androidx.appcompat.widget.AppCompatSpinner
@@ -122,8 +117,25 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/colorAccent"
             android:spinnerMode="dropdown"
-            android:layout_margin="10dp"
             />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="100dp"
+        android:background="@drawable/edit_text_selector"
+        android:inputType="text"
+        android:textCursorDrawable="@drawable/shape_cursor_drawable"
+        android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:layout_marginStart="20dp"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
