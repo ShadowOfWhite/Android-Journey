@@ -109,10 +109,21 @@
 
             </LinearLayout>
         </me.zhaoming.ui.widget.MultiLineRadioGroup>
-        
-       
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
 
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorAccent"
+            android:spinnerMode="dropdown"
+            android:layout_margin="10dp"
+            />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
